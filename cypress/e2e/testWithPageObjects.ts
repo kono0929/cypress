@@ -3,6 +3,7 @@ import { onFormLayoutPage } from "../support/page_objects/formLayoutPage";
 import { onDatepickerPage } from "../support/page_objects/datepickerPage";
 import { onSmartTablePage } from "../support/page_objects/smartTablePage";
 
+// Add comment
 describe("Test with Page Objects", () => {
   beforeEach("open application", () => {
     cy.openHomePage();
