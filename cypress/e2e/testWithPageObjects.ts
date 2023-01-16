@@ -17,7 +17,7 @@ describe("Test with Page Objects", () => {
 
   it.only(
     "should submit Inline and Basic form and select tomorrow date in the calendar",
-    { browser: "chrome" },
+    {},
     () => {
       //navigateTo.formLayoutPage()
       //onFormLayoutPage.submitInlineFormWithNameAndEmail('Kaori', 'kaori@test.com')
